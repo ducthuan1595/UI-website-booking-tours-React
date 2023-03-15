@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin: auto;
+  color: #455ca4;
+}
+
+.footer-col {
+  padding: 20px 0px 60px 0;
+ 
+}
+
+.footer-col p {
+  margin: 6px 0;
+}

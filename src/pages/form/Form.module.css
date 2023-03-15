@@ -1,0 +1,42 @@
+.form-subscribe {
+  background: #003580;
+  text-align: center;
+  padding: 40px 0;
+  margin-top: 40px;
+}
+
+.form-title {
+  color: #fff;
+  font-size: 26px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.form-desc {
+  color: #fff;
+  opacity: 0.8;
+  font-size: 13px;
+}
+
+.form-content {
+  margin-top: 10px;
+}
+
+.form-input {
+  padding: 10px 6px;
+  width: 236px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+}
+
+.form-btn {
+  background-color: #0071c2;
+  color: #fff;
+  padding: 10px 6px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  margin-left: 6px;
+  cursor: pointer;
+}

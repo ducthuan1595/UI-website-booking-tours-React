@@ -1,0 +1,39 @@
+.cities {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.city {
+  position: relative;
+
+}
+
+.city-img {
+  border-radius: 12px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* padding: 0 50%; */
+}
+
+.city-container {
+  position: absolute;
+  bottom: 10px;
+  left: 16px;
+  color: #fff;
+}
+
+.city-name {
+  font-size: 22px;
+  font-weight: 700;;
+}
+
+.city-desc {
+  margin: 0;
+  font-weight: 600;
+}

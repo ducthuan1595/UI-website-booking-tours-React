@@ -1,0 +1,52 @@
+
+.hotels {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+  width: 1000px;
+  margin: auto;
+  /* padding-top: 50px; */
+}
+
+.hotel-img {
+  height: 220px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hotel-name {
+  font-size: 18px;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.hotel-city {
+  margin: 6px 0;
+  opacity: 0.7;
+}
+
+.hotel-price {
+  font-weight: 700;
+}
+
+.hotel-desc {
+  /* margin: 0; */
+  opacity: 0.8;
+  margin-left: 4px;
+}
+
+.hotel-container {
+  display: flex;
+  margin: 6px 0;
+  bottom: 10px;
+  left: 16px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.hotel-rate {
+  padding: 4px 4px;
+  background-color: #003580;
+  color: #fff;
+}
